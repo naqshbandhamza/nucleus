@@ -3604,6 +3604,11 @@ details-disclosure>details {
   }
 }
 
+/********* custom stlyes **********/
+
+body{
+  position: relative;
+}
 
 /********* Custom Fonts **************/
 
