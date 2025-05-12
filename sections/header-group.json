@@ -25,6 +25,8 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
+      "custom_css": [],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -37,6 +39,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".h2 {font-family: \"comfortaa\";}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "mobile_logo_position": "center",
