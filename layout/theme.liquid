@@ -320,6 +320,21 @@
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
 
+    {% if template.name == "index" %}
+      <style>
+        header {
+          background-color:transparent;
+          position:absolute;
+          top:0px;
+          left:0px;
+          width:100%;
+          height:100px;
+          background-color:red;
+
+        }
+      </style>
+    {% endif  %}
+
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
