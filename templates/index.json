@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+    "custom_liquid_gR7iGR": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -33,6 +43,7 @@
       "block_order": [
         "slide-0"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
@@ -74,6 +85,7 @@
     }
   },
   "order": [
+    "custom_liquid_gR7iGR",
     "slideshow",
     "featured-collection-0"
   ]
